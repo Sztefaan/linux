@@ -11,4 +11,4 @@ jobs:
     
     steps:
       - name: python command
-        run: python3 -c "import platform; print(platform.system())
+        run: python -c "import platform; print(platform.system())
